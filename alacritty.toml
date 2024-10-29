@@ -1,29 +1,11 @@
 [font]
 
 [font.normal]
-family = "MesloLGS NF"
+# family = "MesloLGS NF"
 
 [scrolling]
 history = 10000
 
-[shell]
-program = "/usr/bin/zsh"
-args = ["-c", "tmux"]
-
-
 [window]
 dynamic_title = true
-startup_mode = "Fullscreen"
 title = "Alacritty"
-
-[window.dimensions]
-columns = 0
-lines = 0
-
-[window.padding]
-x = 0
-y = 0
-
-[window.position]
-x = 0
-y = 0
